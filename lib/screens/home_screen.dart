@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:restaurant_app/components/star.dart';
-
-// Import your model
 import 'package:restaurant_app/models/restaurant.dart';
-import 'package:restaurant_app/screens/detail_screen.dart'; // Update with your model's path
+import 'package:restaurant_app/screens/detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
